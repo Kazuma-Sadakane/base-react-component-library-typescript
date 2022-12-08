@@ -1,0 +1,32 @@
+{
+  "name": "@Kazuma-Sadakane/base-react-component-library-typescript",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/Kazuma-Sadakane/base-react-component-library-typescript.git",
+  "author": "Kazuma Sadakane <kazuma.sadakane@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "rollup": "rollup -c",
+    "dev": "",
+    "start": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.4",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "rollup": "^3.7.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Kazuma-Sadakane"
+  }
+}
